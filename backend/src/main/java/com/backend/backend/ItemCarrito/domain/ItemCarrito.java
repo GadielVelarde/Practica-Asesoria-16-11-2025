@@ -2,6 +2,7 @@ package com.backend.backend.ItemCarrito.domain;
 
 
 import com.backend.backend.Carrito.domain.Carrito;
+import com.backend.backend.Producto.domain.Producto;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,7 +1,6 @@
-package com.backend.backend.Security.Auth.Dtos;
+package com.backend.backend.Security.Auth.dto;
 
-
-import com.backend.backend.users.domain.UserDTO;
+import com.backend.backend.users.dto.UsuarioDTO;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -11,8 +10,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class AuthResponse {
+public class AuthResponseDTO {
     private String token;
-    private UserDTO usuario;
-
+    private UsuarioDTO usuario;
 }
