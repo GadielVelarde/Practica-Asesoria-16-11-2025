@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/carrito")
-@RequiredArgsConstructor
+@RequiredArgsConstructor "abcdg"
 public class CarritoControllerImpl {
 
     private final CarritoServiceImpl carritoService;
